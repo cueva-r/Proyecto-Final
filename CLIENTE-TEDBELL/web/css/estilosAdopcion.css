@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+
+body{
+    background-color: rgb(245, 243, 239);
+}
+.logo{
+    background-color: rgb(193, 223, 240);
+    text-align: center;
+    height: 220px;
+}
+.logo img{
+    height: 220px;
+}
+.icon-container, .icon-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container img{
+    width: 70px;
+    height: 55px;
+}
+.icon-container-2 svg{
+    width: 50px;
+    height: 40px;
+}
+nav{
+    box-shadow: 0px 15px 10px -15px gray;
+    background-color: rgb(193, 223, 240);
+}
+.submenu{
+    background-color: rgb(193, 223, 240);
+}
+.submenu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container-2{
+    justify-content: center;
+}
+.nav-container-2 a{
+    font-size: 40px;
+    color: black;
+    margin: 4px;
+}
+.nav-container-2 a:hover{
+    color: rgb(155, 148, 148);
+}
+.nav-container-2 a.active:hover{
+    color: rgb(155, 148, 148);
+}
+.navigationbar{
+    background-color: rgb(193, 223, 240);
+}
+
+
+
+
+.index-welcome{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+.indextitle{
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indextitle h1{
+    text-align: center;
+    font-size: 40px;
+}
+.indexcard1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomecard{
+    padding-left: 50px;
+}
+.welcomecard h5{
+    font-size: 35px;
+}
+.welcomecard p{
+    font-size: 30px;
+}
+
+
+
+
+
+.imgcontainer{
+    width: 100%;
+    height: 500px;
+}
+.imgcontainer img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+.propuesta2{
+    width: 100%;
+    background-color: rgb(245, 243, 239);
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.propuesta-title{
+    max-width: 540px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.propuesta-title p{
+    font-size: 35px;
+    text-align: center;
+}
+.propuesta2 div{
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(245, 243, 239);
+}
+.propuesta2 h5{
+    font-size: 30px;
+}
+.propuesta2 p{
+    font-size: 25px;
+}
+
+
+
+.form-container{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.form1{
+    float: left;
+    width: 40%;
+}
+.form2{
+    width: 40%;
+}
+
+
+
+
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-footer img{
+    height: 130px;
+}
+footer h6{
+    font-size: 25px;
+    color: black;
+}
+footer a{
+    text-decoration: none;
+    font-size: 23px;
+}
+footer p{
+    font-size: 23px;
+    color: rgb(94, 91, 91);
+}
+footer a:hover {
+    font-size: 24px;
+}
+footer p:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .icon-container{
+      display: none;
+    }
+    .icon-container-2{
+        display: none;
+      }
+}
+@media only screen and (max-width: 1200px) {
+    .header-logo{
+        height: 80px;
+    }
+    .logo{
+        height: 80px;
+    }
+    .logo img{
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .header-logo{
+        height: 50px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .logo img{
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .header-logo{
+        height: 50px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .logo img{
+        height: 50px;
+    }
+}

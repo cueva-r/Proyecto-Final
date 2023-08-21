@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: rgb(245, 243, 239);
+}
+
+
+.container{
+    display: flex;
+    
+}
+
+
+body{
+    background-color: rgb(245, 243, 239);
+}
+.logo{
+    background-color: rgb(193, 223, 240);
+    text-align: center;
+    height: 220px;
+}
+.logo img{
+    height: 220px;
+    background-color: rgb(193, 223, 240);
+}
+.icon-container, .icon-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.icon-container img{
+    width: 70px;
+    height: 55px;
+}
+.icon-container-2 svg{
+    width: 50px;
+    height: 40px;
+}
+nav{
+    box-shadow: 0px 15px 10px -15px gray;
+    background-color: rgb(193, 223, 240);
+    
+}
+.submenu{
+    background-color: rgb(193, 223, 240);
+}
+.submenu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container-2{
+    justify-content: center;
+}
+.nav-container-2 a{
+    float: left;
+    font-size: 25px;
+    color: black;
+    
+    margin-left: 105px;
+}
+.nav-container-2 a:hover{
+    color: rgb(155, 148, 148);
+}
+.nav-container-2 a.active:hover{
+    color: rgb(155, 148, 148);
+}
+.navigationbar{
+    background-color: rgb(193, 223, 240);
+}
+
+
+

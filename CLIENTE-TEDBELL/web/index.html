@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/estilosAdopcion.css">
+        <title>TEDBEL</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="container-fluid mt-3 header-logo" style="background-color: rgb(193, 223, 240)">
+            <div class="logo col-12">
+                <a href="login.html">
+                    <img src="imagenes/Logo2.png" alt="">
+                </a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg sticky-top" style="background-color: rgb(193, 223, 240);">
+            <div class="container-fluid navigationbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-container-1 col-12">
+                        <div class="icon-container col-1" style="width: 5%;">
+                            <a class="navbar-brand" href="#">
+                                <img src="imagenes/pawIcon.png" alt="#">
+                            </a>
+                        </div>
+                        <div class="navbar-nav nav-container-2 col-10" style="width: 90%;">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                            <a class="nav-link" href="shop.jsp">Articulos</a>
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="moduloAdopcion.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Adopción
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: rgb(193, 223, 240);">
+                                        <li><a class="dropdown-item" href="moduloAdopcion.html" style="background-color: rgb(193, 223, 240);">Información</a></li>
+                                        <li><a class="dropdown-item" href="verAnimal.jsp" style="background-color: rgb(193, 223, 240);">Ver Mascotas en Adopcion</a></li>
+                                        <li><a class="dropdown-item" href="registroAdopcion.jsp" style="background-color: rgb(193, 223, 240);">Registro de Adopción</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a class="nav-link" href="rescate.jsp">Solicitar Rescate</a>
+                        </div>
+                        <div class="icon-container-2 col-1" style="width: 5%;">
+                            <a class="navbar-brand" href="login.html">Iniciar Sesión</a>
+                            <a class="navbar-brand" href="CerrarSesion.jsp">Cerrar Sesión
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open" viewBox="0 0 16 16">
+                                <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                                <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Header -->  
+
+
+
+
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/carrusel1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/carrusel2.PNG" alt="Chicago" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/carrusel3.jpg" alt="New York" class="d-block" style="width:100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+
+
+
+
+
+
+        <div class="index-welcome">
+            <div class="indextitle">
+                <h1>Bienvenidos A La Veterinaria Ted Bel</h1>
+            </div>
+            <div class="card mb-3 indexcard1" style="background-color: rgb(245, 243, 239); border: none;">
+                <div class="row g-0" style="max-width: 80%;">
+                    <div class="col-md-4 imgcard indexcard2">
+                        <img src="imagenes/2.webp" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8 welcomecard">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Quienes Somos?</h5>
+                            <br>
+                            <p class="card-text">Somos un centro de atención conformado por expertos veterinarios, cuya filosofía de trabajo se refleja en 
+                                el lema “siempre pensando en el bienestar de su mascota”.
+
+                                En nuestra veterinaria, brindamos un trato personalizado a todos los clientes y, como campaña permanente, tratamos de educar al propietario para que mejore las relaciones con su mascota,le brinde los cuidados apropiados y así exista entre ambos una perfecta armonía.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="album py-5 propuesta1">
+            <div class="container propuesta2">
+                <div class="propuesta-title container">
+
+                    <p>¿QUE OFRECEMOS?</p>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card">
+                            <img src="imagenes/servicios.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Servicios</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam illum, obcaecati explicabo eveniet accusamus, unde nemo tenetur iure aspernatur vero incidunt quas itaque quos, minus facilis nulla doloribus id omnis!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imagenes/articulos.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Articulos para Mascotas</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quis doloribus accusamus magni temporibus aliquid iure qui reprehenderit maxime voluptas. Perferendis sequi saepe fugiat, id vel perspiciatis sapiente fugit ea.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="imagenes/swwww.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Adopcion de Animales</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam, veniam fuga quas enim debitis voluptates cupiditate eligendi harum quasi totam modi minima, omnis sit corrupti? Vero dolores ratione nihil?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card bg-dark text-white">
+            <img src="imagenes/sassss.PNG" class="card-img" alt="...">
+            <div class="card-img-overlay">
+
+                <p class="card-text text-center text-dark">
+                <div class="d-grid gap-3">
+                    <button type="button" class="btn btn-primary btn-block btn-lg">¡PONTE EN CONTACTO CON NOSOTROS!</button>
+                </div>
+                </p>
+
+
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <hr>
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 logo-footer">
+                            <a href="login.html">
+                                <img src="imagenes/logo.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Horarios</h6>
+                            <p>Lunes a Sábado:<br /> 13:15 a 15:15 y 20:15 a 22:30</p>
+                            <p>Domingos:<br /> 13:15 a 15:15 y de 20:15 a 21:15</p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Links
+                            </h6>
+                            <p>
+                                <a href="artigiano.html" class="text-reset">Servicios</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Articulos</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Adopcion de Mascotas</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Política de Privacidad</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3"></i> Lima, Lima 10012, Perú</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                LaboratorioPeru@zegelipae.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> 989-249-799</p>
+                            <p><i class="fas fa-print me-3"></i> 902-374-687</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright:
+                <a class="text-reset fw-bold" href="https://www.zegelipae.edu.pe/">Laboratorio</a>
+            </div>
+
+        </footer>
+        <!-- Footer -->
+
+
+    </body>
+</html>
